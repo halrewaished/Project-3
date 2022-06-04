@@ -1,0 +1,23 @@
+2022-06-05 00:14:18.446  INFO 78264 --- [main] c.e.booksystem.BookSystemApplication     : Starting BookSystemApplication using Java 18.0.1.1 on Haneens-MacBook-Pro.local with PID 78264 (/Users/HS/Desktop/BootCamp/BookSystem/target/classes started by HS in /Users/HS/Desktop/BootCamp/BookSystem)
+2022-06-05 00:14:18.577  INFO 78264 --- [main] c.e.booksystem.BookSystemApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-06-05 00:14:21.464  INFO 78264 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-05 00:14:21.523  INFO 78264 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 3 JPA repository interfaces.
+2022-06-05 00:14:22.153  INFO 78264 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4000 (http)
+2022-06-05 00:14:22.164  INFO 78264 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-05 00:14:22.164  INFO 78264 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-05 00:14:22.265  INFO 78264 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-05 00:14:22.266  INFO 78264 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3010 ms
+2022-06-05 00:14:22.488  INFO 78264 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-05 00:14:22.520  INFO 78264 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-05 00:14:22.718  INFO 78264 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-05 00:14:22.792  INFO 78264 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-05 00:14:23.175  INFO 78264 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-05 00:14:23.186  INFO 78264 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-06-05 00:14:24.361  INFO 78264 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-05 00:14:24.369  INFO 78264 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-05 00:14:24.801  WARN 78264 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-05 00:14:25.264  INFO 78264 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4000 (http) with context path ''
+2022-06-05 00:14:25.277  INFO 78264 --- [main] c.e.booksystem.BookSystemApplication     : Started BookSystemApplication in 7.451 seconds (JVM running for 10.286)
+2022-06-05 00:14:29.799  INFO 78264 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-05 00:14:29.801  INFO 78264 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-05 00:14:29.808  INFO 78264 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
